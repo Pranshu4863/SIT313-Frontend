@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  background-color: #fff;
+  padding: 15px 0;
+  text-align: left;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: royalblue;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.intro-banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.intro-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.intro-banner:hover .intro-text {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+.bio-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.line-break {
+  width: 80px;
+  margin: 20px auto;
+  border: 1px solid royalblue;
+}
+
+.work-showcase {
+  padding: 30px;
+  background-color: #f2f2f2;
+  text-align: left;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.work-card {
+  display: flex;
+  align-items: flex-start;
+  margin: 30px 0;
+  gap: 20px;
+}
+
+.work-card img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.work-info {
+  max-width: 700px;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.project-desc {
+  font-size: 16px;
+  color: #333;
+}
+
+.photo-album {
+  padding: 30px;
+  text-align: center;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.photo-grid img {
+  width: 200px;
+  height: auto;
+  border-radius: 6px;
+}

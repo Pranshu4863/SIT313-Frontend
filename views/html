@@ -10,7 +10,7 @@
   <div class="wrapper">
     <div class="subscription-card">
       <h1>Join DEV@Deakin</h1>
-      <p>Stay updated with the latest news, events, and coding resources. Enter your email to subscribe and get a welcome email instantly!</p>
+      <p>Stay updated with the latest events. Enter your email to subscribe and get a welcome email instantly!</p>
       
       <form action="/subscribe" method="POST" class="subscription-form">
         <label for="email">Email address</label>

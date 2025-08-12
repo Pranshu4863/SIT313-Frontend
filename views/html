@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEV@Deakin - Subscribe</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="subscription-card">
+      <h1>Join DEV@Deakin</h1>
+      <p>Stay updated with the latest news, events, and coding resources. Enter your email to subscribe and get a welcome email instantly!</p>
+      
+      <form action="/subscribe" method="POST" class="subscription-form">
+        <label for="email">Email address</label>
+        <input 
+          id="email" 
+          type="email" 
+          name="email" 
+          placeholder="you@example.com" 
+          required
+        >
+        <button type="submit">Subscribe Now</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

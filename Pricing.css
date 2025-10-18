@@ -1,0 +1,73 @@
+.pricing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.pricing-container h1 {
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.plan {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.plan p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.plan ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan li {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.plan-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.plan-button:hover {
+  background-color: #0056b3;
+}
+
+.free-plan .plan-button {
+  background-color: #6c757d;
+  cursor: default;
+}
+
+.free-plan .plan-button:hover {
+  background-color: #6c757d;
+}

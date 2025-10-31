@@ -1,0 +1,109 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #fff;
+  padding: 2rem;
+  color: #000;
+}
+
+.post-box {
+  border: 1px solid #cecccc;
+  padding: 1rem;
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+}
+
+.post-header {
+  background: #e0e0e0;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.post-type {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.post-type label {
+  margin-right: 15px;
+}
+
+.info-box {
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 13px;
+}
+
+.info-box strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-section {
+  margin-bottom: 1rem;
+}
+
+.form-section label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.post-btn-container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.post-btn {
+  background: #c0c0c0;
+  border: none;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Navbar styling (matches the monochrome layout) */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: #e0e0e0;
+  border: 1px solid #cecccc;
+  padding: 8px 0;
+  margin-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+
+.navbar a {
+  color: #000;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+
+.navbar a:hover {
+  background: #c0c0c0;
+}
+
+.navbar a.active {
+  background: #c0c0c0;
+  font-weight: bold;
+}

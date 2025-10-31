@@ -1,0 +1,5 @@
+- [x] Delete node_modules and package-lock.json properly
+- [x] Update package.json to pin React versions to 18.2.0
+- [x] Reinstall dependencies with npm install
+- [x] Run npm audit fix to address vulnerabilities
+- [x] Test the app with npm start

@@ -35,10 +35,10 @@ export default function ArticleForm({ formData, setFormData }) {
         imageId,
       });
 
-      setUploadStatus("✅ Image uploaded successfully (local simulation)!");
+      setUploadStatus("Image uploaded successfully (local simulation)!");
     };
     reader.onerror = () => {
-      setUploadStatus("❌ Error uploading image.");
+      setUploadStatus("Error uploading image.");
     };
     reader.readAsDataURL(formData.imageFile);
   };
